@@ -1,0 +1,774 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.navbar {
+
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.nav {
+    height: 100%;
+    width: 90%;
+    padding-left: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.nav img {
+    height: 40px;
+    width: 140px;
+    
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.navmenu {
+
+    height: 100px;
+    width: 55%;
+    position: absolute;
+    right: 5px;
+}
+
+.navlink {
+    height: 80px;
+    width: 90px;
+    color: white;
+    padding: 30px 20px;
+}
+
+.navlinkg {
+    box-sizing: border-box;
+    height: 80px;
+    width: 90px;
+    color: white;
+    padding: 15px 15px;
+    border: 3px solid white;
+    margin: 15px 5px;
+    border-radius: 5px;
+}
+
+.navlinkg:hover {
+    background-color: white;
+    color: black;
+}
+
+.header {
+    height: 250px;
+    width: 100%;
+    margin-top: -100px;
+    background-image: url("Images/image-header.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 210px 30px 120px 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading {
+    height: 250px;
+    width: 95%;
+    text-align: center;
+
+}
+
+.heading h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 78px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+
+}
+
+.parah {
+    font-family: 'IBM Plex Mono', sans-serif;
+    color: white;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.heading a {
+    font-size: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #5ab963;
+    color: white;
+}
+
+.heading a:hover {
+    background-color: #429a4a;
+}
+
+
+.feature {
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.featurecont {
+    height: 100px;
+    width: 40%;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.featurecard {
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 290px;
+    width: 370px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+    transition: box-shadow 200ms ease;
+}
+
+.card img {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.card p {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #999;
+}
+
+.card p strong {
+    font-size: 20px;
+    color: #000;
+}
+
+.dishinfo {
+    height: 800px;
+    width: 100%;
+}
+
+.dish {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dish img {
+    height: 350px;
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 0px;
+}
+
+.info {
+    height: 350px;
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+
+.info1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #999;
+}
+
+.info1 strong{
+    color: #000;
+}
+
+.info2 {
+    font-size: 20px;
+    color: #999;
+}
+
+.footer {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerlogo {
+    height: 500px;
+    width: 50%;
+}
+
+.footerlogo img {
+    height: 50px;
+    width: 150px;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.footerlogo p {
+    color: white;
+    padding-left: 50px;
+}
+
+.links {
+    padding-top: 175px;
+    color: white;
+    height: 150px;
+    width: 50%;
+}
+
+.links1 {
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.links1 a {
+    color: #ffffff;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.links2 {
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.links2 a {
+    color: #ffffff;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+
+        height: 170px;
+        width: 100%;
+        line-height: 100px;
+        font-weight: 400;
+        padding: 0%;
+    }
+
+    .nav {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .nav img {
+        height: 70px;
+        width: 140px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+    .navmenu {
+
+        height: 100px;
+        width: 100%;
+        margin-left: -10px;
+        position: relative;
+    }
+    
+    .navlink {
+        height: 70px;
+        width: 80px;
+        color: white;
+        padding: 5px 5px;
+    }
+    
+    .navlinkg {
+        box-sizing: border-box;
+        height: 70px;
+        width: 80px;
+        color: white;
+        padding: 5px 7px;
+        border: 2px solid white;
+        margin: 0px;
+        border-radius: 5px;
+    }
+    
+    .navlinkg:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .header {
+        height: 250px;
+        width: 100%;
+        margin-top: -170px;
+        background-image: url("https://uploads-ssl.webflow.com/5b680680f109cf5a2fd941ab/5b6817d95fc94c67bf48eaab_image-header.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+        padding: 210px 30px 120px 30px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .heading {
+        height: 250px;
+        width: 97%;
+        text-align: center;
+    
+    }
+    
+    .heading h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 55px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .parah {
+        font-family: 'IBM Plex Mono', sans-serif;
+        color: white;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    
+    .heading a {
+        font-size: 20px;
+        margin-top: 90px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        background-color: #5ab963;
+        color: white;
+    }
+    
+    .feature {
+        height: 1150px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .featurecont {
+        height: 100px;
+        width: 75%;
+        padding-top: 50px;
+        padding-left: 65px;
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+    
+    .featurecard {
+        height: 1000px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        height: 290px;
+        width: 370px;
+        margin: 10px;
+    }
+    
+    .card img {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    .card p {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .card p strong {
+        font-size: 20px;
+    }
+    
+    .dishinfo {
+        height: 1350px;
+        width: 100%;
+    }
+    
+    .dish {
+        height: 660px;
+        width: 96%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0% 2%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .dish img {
+        height: 350px;
+        width: 500px;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-right: 0px;
+        
+    }
+    
+    .info {
+        height: 350px;
+        width: 500px;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    
+    .info1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .info2 {
+        font-size: 20px;
+    }
+
+    .footer {
+        background-color: black;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footerlogo {
+        height: 300px;
+        width: 50%;
+    }
+    
+    .footerlogo img {
+        height: 50px;
+        width: 150px;
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+    
+    .footerlogo p {
+        color: white;
+        padding-left: 50px;
+    }
+    
+    .links {
+        padding-top: 85px;
+        color: white;
+        height: 150px;
+        width: 50%;
+    
+    
+    }
+    
+    .links1 {
+        
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .links1 a {
+        color: #ffffff;
+        margin: 7px;
+        box-sizing: border-box;
+    }
+    
+    .links2 {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .links2 a {
+        color: #ffffff;
+        margin: 7px;
+        box-sizing: border-box;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+    .navbar {
+
+        height: 100px;
+        width: 100%;
+        line-height: 100px;
+        font-weight: 400;
+        padding: 0%;
+    }
+
+    .nav {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .nav img {
+        height: 100px;
+        width: 140px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+    .navmenu {
+
+        height: 100px;
+        width: 550px;
+        position: absolute;
+        right: 5px;
+    }
+    
+    .navlink {
+        height: 80px;
+        width: 90px;
+        color: white;
+        padding: 20px 10px;
+    }
+    
+    .navlinkg {
+        box-sizing: border-box;
+        height: 80px;
+        width: 90px;
+        color: white;
+        padding: 10px 10px;
+        border: 2px solid white;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    
+    .navlinkg:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .header {
+        height: 250px;
+        width: 100%;
+        margin-top: -100px;
+        background-image: url("https://uploads-ssl.webflow.com/5b680680f109cf5a2fd941ab/5b6817d95fc94c67bf48eaab_image-header.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+        padding: 210px 30px 120px 30px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .heading {
+        height: 250px;
+        width: 95%;
+        text-align: center;
+    
+    }
+    
+    .heading h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 67px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        margin-bottom: 25px;
+    
+    }
+    
+    .parah {
+        font-family: 'IBM Plex Mono', sans-serif;
+        color: white;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    
+    .heading a {
+        font-size: 20px;    
+        margin-top: 90px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        background-color: #5ab963;
+        color: white;
+    }
+
+    .feature {
+        height: 820px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .featurecont {
+        height: 100px;
+        width: 40%;
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+    
+    .featurecard {
+        height: 620px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        height: 290px;
+        width: 320px;
+        margin: 10px;
+    }
+    
+    .card img {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    .card p {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .card p strong {
+        font-size: 20px;
+    }
+    
+    .dishinfo {
+        height: 1500px;
+        width: 100%;
+    }
+    
+    .dish {
+        height: 730px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .dish img {
+        height: 400px;
+        width: 90%;
+        padding-left: 5%;
+        padding-top: 30px;
+    }
+
+    .info {
+        height: 250px;
+        width: 500px;
+        padding-left: 100px;
+        padding-top: 35px;
+    }
+    
+    .info1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .info2 {
+        font-size: 20px;
+    }
+    
+    .footer {
+        background-color: black;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footerlogo {
+        height: 500px;
+        width: 50%;
+    }
+    
+    .footerlogo img {
+        height: 50px;
+        width: 150px;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+    
+    .footerlogo p {
+        color: white;
+        padding-left: 50px;
+    }
+    
+    .links {
+        padding-top: 175px;
+        color: white;
+        height: 150px;
+        width: 50%;
+    
+    
+    }
+    
+    .links1 {
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    
+    .links1 a {
+        color: #ffffff;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    
+    .links2 {
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    
+    .links2 a {
+        color: #ffffff;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    
+}
